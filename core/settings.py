@@ -142,3 +142,8 @@ WHATSAPP_NUMBER = config('WHATSAPP_NUMBER', default='2348000000000')
 STORE_BANK_NAME = config('STORE_BANK_NAME', default='Your Bank Name')
 STORE_ACCOUNT_NUMBER = config('STORE_ACCOUNT_NUMBER', default='0000000000')
 STORE_ACCOUNT_NAME = config('STORE_ACCOUNT_NAME', default="Reedah's Scent")
+
+# Admin user credentials
+ADMIN_USERNAME = config("ADMIN_USERNAME", default="")
+ADMIN_EMAIL = config("ADMIN_EMAIL", default="")
+ADMIN_PASSWORD = config("ADMIN_PASSWORD", default="")
